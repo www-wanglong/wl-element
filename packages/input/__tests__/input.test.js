@@ -1,3 +1,6 @@
+/**
+ * @jest-environment jsdom
+ */
 import input from '../src/input.vue'
 import { mount } from '@vue/test-utils'
 
@@ -16,7 +19,7 @@ describe('wl-input', () => {
     expect(wrapper.html()).toContain('input type="password"')
   })
 
-  test('input-password', () => {
+  test('input-value', () => {
     const wrapper = mount(input, {
       propsData: {
         type: 'password',
@@ -29,7 +32,7 @@ describe('wl-input', () => {
   test('input-snapshot', () => {
     const wrapper = mount(input, {
       propsData: {
-        type: 'text',
+        type: 'password',
         value: 'admin'
       }
     })

@@ -1,7 +1,7 @@
-import LgForm from './src/form.vue'
+import WlForm from './src/form.vue'
 
-LgForm.install = Vue => {
-  Vue.component(LgForm.name, LgForm)
+WlForm.install = Vue => {
+  Vue.component(WlForm.name, WlForm)
 }
 console.log('test')
-export default LgForm
+export default WlForm

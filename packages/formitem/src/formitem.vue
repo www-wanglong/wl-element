@@ -11,7 +11,7 @@
 <script>
 import AsyncValidator from 'async-validator'
 export default {
-  name: 'LgFormItem',
+  name: 'WlFormItem',
   inject: ['form'],
   props: {
     label: {
@@ -47,7 +47,7 @@ export default {
           this.errMessage = ''
         }
       })
-    }  
+    }
   }
 }
 </script>

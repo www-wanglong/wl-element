@@ -1,7 +1,7 @@
-import LgInput from './src/input.vue'
+import WlInput from './src/input.vue'
 
-LgInput.install = Vue => {
-  Vue.component(LgInput.name, LgInput)
+WlInput.install = Vue => {
+  Vue.component(WlInput.name, WlInput)
 }
 
-export default LgInput
+export default WlInput

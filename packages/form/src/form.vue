@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'LgForm',
+  name: 'WlForm',
   provide () {
     return {
       form: this

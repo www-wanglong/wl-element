@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'LgButton',
+  name: 'WlButton',
   methods: {
     handleClick (evt) {
       this.$emit('click', evt)

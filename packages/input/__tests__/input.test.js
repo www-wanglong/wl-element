@@ -1,12 +1,12 @@
 import input from '../src/input.vue'
 import { mount } from '@vue/test-utils'
 
-describe('lg-input', () => {
+describe('wl-input', () => {
   test('input-text', () => {
     const wrapper = mount(input)
     expect(wrapper.html()).toContain('input type="text"')
   })
-  
+
   test('input-password', () => {
     const wrapper = mount(input, {
       propsData: {

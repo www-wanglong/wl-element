@@ -108,7 +108,7 @@ module.exports = [
 运行打包
 
 ```bash
-yarn workspace lg-button run build
+yarn workspace wl-button run build
 ```
 
 ## 打包所有组件
@@ -195,3 +195,6 @@ module.exports = fs.readdirSync(root)
 ```js
 "build": "rollup -c"
 ```
+## 删除所有dist文件
+
+`yarn workspaces run del`
